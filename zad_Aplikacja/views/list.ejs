@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/list.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = 'wrapper'>
+        <header>
+            <h1><a href="/">Generator gości</a></h1>
+        
+        </header>
+        <section>
+            <h2>Lista gości:</h2>
+            <ul>
+                <% data.forEach(function(dat) { %>
+                    <li><%= dat.name %></li>
+                  
+                <% }); %>
+            </ul>
+            <div class="container">
+                <a href="guests/add">Dodaj gości</a>
+            </div>
+        </section>
+      
+     
+    
+
+      
+        
+    </div>
+</body>
+</html>

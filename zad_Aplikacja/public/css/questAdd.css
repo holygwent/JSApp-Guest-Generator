@@ -1,0 +1,19 @@
+section>.container
+{
+    height: 50px;
+    margin-left: 0;
+    
+}
+section>.container>a
+{
+    margin-left: 0;
+    margin-top: 4%;
+}
+ul{
+    list-style-type: none;
+
+}
+section>h2{
+  
+    padding-left: 40px;
+}
